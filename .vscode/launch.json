@@ -11,7 +11,8 @@
       "restart": true,
       "name": "Debug",
       "skipFiles": ["<node_internals>/**"],
-      "outFiles": ["${workspaceFolder}/**/*.js"]
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "port": 9300
     }
   ]
 }
